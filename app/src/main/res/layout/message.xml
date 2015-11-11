@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.john.work4.ContactsMessageActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名:"
+        android:id="@+id/name"
+        android:textSize="22.0dp"
+        android:layout_marginLeft="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="单位:"
+        android:textSize="22.0dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/danwei" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="电话:"
+        android:textSize="22.0dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/mobile" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Q  Q:"
+        android:textSize="22.0dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/qq" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="地址:"
+        android:textSize="22.0dp"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/address" />
+</LinearLayout>
